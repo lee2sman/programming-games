@@ -1,13 +1,16 @@
-# Halt and Catch Fire Syllabus
+# Programming Games syllabus
 
-Repo for [this site](https://bits.ashleyblewer.com/halt-and-catch-fire-syllabus/)
+Repo for the [Programming Games curriculum site](https://leetusman.com/programming-games).
 
 ## Site information
 
-- Made with [Jekyll](https://jekyllrb.com/)
-- Images on Index/About page made monochrome using [DitherIt!](https://ditherit.com/)
+* Made with [Jekyll](https://jekyllrb.com/)
+* Images on index page made via [DitherIt!](https://ditherit.com/)
 
 ## License
 
-Code: [MIT](https://opensource.org/licenses/MIT)
+Site code: [MIT](https://opensource.org/licenses/MIT)
 Content: [CC BY-NC](https://creativecommons.org/licenses/by-nc/4.0/)
+
+copyright (c) Lee Tusman 2023
+copyright (c) Ashley Blewer 2021

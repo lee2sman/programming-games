@@ -1,34 +1,43 @@
 ---
 layout: about
-title: Halt and Catch Fire Syllabus
+title: Programming Games Syllabus
 permalink: "/"
 ---
 
 
 
-# README
+# ABOUT this site
 
-This site features a curriculum developed around the television series, [Halt and Catch Fire](https://www.google.com/search?channel=fs&client=ubuntu&q=halt+and+catch+fire) (2014-2017), a fictional narrative about people working in tech during the 1980s-1990s.  
+This site features open educational resources for an introductory programming course Programming Games. This curriculum was developed for a general audience, with no background in programming, in order to teach the fundamentals of programming through making video games. This site and curriculum was developed by Lee Tusman, Assistant Professor of New Media and Computer Science at Purchase College, with the support of a Topol Faculty Development Award.
 
-The intent is for this website to be used by self-forming small groups that want to create a "watching club" (like a book club) and discuss aspects of technology history that are featured in this series.
+The class is taught in the language Lua, using the [LÖVE](https://love2d.org/) and [Pico-8](https://www.lexaloffle.com/pico-8.php) game engines.
 
-There are 15 classes, for a "semester-long" course:  
-{% for post in site.classes %}~ <a href="{{ site.baseurl }}{{ post.url }}">#{{ post.number }}</a> {% endfor %}~
+Making a game is fun but lots of work! Students are expected to follow along, code throughout the week, and complete all assignments. There are three main game projects: an 80s/90s arcade style game, an adventure game, and a final game of their choice. The first 8 weeks of class cover LÖVE. Pico-8 will be taught in the following weeks. A student has their choice of framework for their final game assignment.
 
-**Prefer a [PDF](HaltAndCatchFireSyllabus.pdf)?**
+This site builds upon open source books, lesson plans and tutorials, cited. Mini workshops and projects are completed along the way, including building text adventure games and pong.
 
-Brief guide to class layout:
-- **Apéritifs** Casual viewing presented before gathering. This is entertainment; not required viewing.
-- **RFC as koan** A Request for Comments from the Internet Engineering Task Force, for reflecting on.
-- **Emulation as koan** An emulated computer in the browser, also for reflection.
-- **Themes** Recommendations for topics to be discussed.
-- **Prompts** Questions to inspire conversation when gathering.
-- **Readings** Related material for deeper thinking on the class topic.
-- **Description** Brief summary of what's going on in the episodes and how it relates to tech history at large / the weekly topic.
-- **Episode summaries** A link to summaries of the episodes that should be watched prior to meeting as a group. Watching each episode is not required; if time doesn't allow, refer to the summaries. Content warnings are provided for relevant episodes. If there are specific concerns, this can determine which episodes should be skipped or anticipated before viewing. 
-  
+There are 15 classes, for a "semester-long" course, with one field trip class and one final projects presentations class.  
+
+<ul>
+  {% for post in site.posts %}
+    <p>
+      <a href="{{ site.baseurl }}{{ post.url }}">
+     {{ post.title }}
+     </a>
+    </p>
+  {% endfor %}
+</ul>
+
+ 
 <br/>
-Curriculum and website designed by [Ashley Blewer](https://ashleyblewer.com).  
-see also &#8608; [source code & site metadata](https://github.com/ablwr/halt-and-catch-fire-syllabus) 
+Curriculum by Lee Tusman. 
+
+Website design adapted from: [Ashley Blewer](https://ashleyblewer.com), 2021 - 2022  
+Lee Tusman 2023  
+CC BY-NC
+
+See also &#8608; [site source code](https://github.com/lee2sman/programming-games).
 
 ![under construction]({{ site.baseurl }}/assets/img/construction.gif)
+
+![Purchase College clock tower]({{ site.baseurl }}/assets/img/clock.jpg)
