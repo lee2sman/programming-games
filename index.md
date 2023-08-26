@@ -34,7 +34,8 @@ Curriculum by Lee Tusman.
 
 Website design adapted from: [Ashley Blewer](https://ashleyblewer.com), 2021 - 2022  
 Lee Tusman 2023  
-CC BY-NC
+CC BY-NC  
+Pico-8 gif by [REZ](http://www.chiptune.com/). 
 
 See also &#8608; [site source code](https://github.com/lee2sman/programming-games).
 
