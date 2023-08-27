@@ -58,7 +58,7 @@ header { grid-area: header; }
 main, #index { grid-area: main; }
 nav { grid-area: nav; }
 
-header, nav, main { height: 100vh; z-index: 2;}
+header, nav, main {  z-index: 2;}
 
 header, nav {
   color: #1c3c0c;
@@ -96,7 +96,6 @@ nav .class-list:nth-child(1) {
 
 nav a, nav a:visited {
 	color: black;
-  border: 1px solid black;
   text-decoration: none;
   padding: 0.5vh;
 }
