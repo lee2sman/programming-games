@@ -4,7 +4,12 @@ title: Programming Games Syllabus
 permalink: "/"
 ---
 
+<br>
+<br>
 
+## Weeks
+
+<br>
 
 <ul>
   {% for post in site.posts %}
