@@ -9,9 +9,9 @@ This website presents an introductory course Programming Games. The curriculum w
 
 The site and curriculum was developed by Lee Tusman, Assistant Professor of New Media and Computer Science at [Purchase College](https://www.purchase.edu/academics/mathematics-computer-science/), with the support of a Topol Faculty Development Award.
 
-The class is taught in the language Lua, using the [LÖVE](https://love2d.org/) and [Pico-8](https://www.lexaloffle.com/pico-8.php) game engines.
+The class is taught in the language Lua, using the [LÖVE](https://love2d.org/) framework and [Pico-8](https://www.lexaloffle.com/pico-8.php) game engine.
 
-Making a game is fun but lots of work! Students are expected to follow along, code throughout the week, and complete all assignments. There are three main game projects: an 80s/90s arcade style game, an adventure game, and a final game of their choice, along with smaller projects and challenges along the way. The first 8 weeks of class are taught with the video engine LÖVE. Pico-8 will be taught in the following weeks. A student has their choice of framework for their final game assignment.
+Making a game is fun but lots of work! Students are expected to follow along, code throughout the week, and complete all assignments. There are three main game projects: an 80s/90s arcade style game, an adventure game, and a final game of their choice, along with smaller projects and challenges along the way. The first 8 weeks of class are taught with LÖVE. Pico-8 will be taught in the following weeks. A student can choose to work with either LÖVE or Pico-8 for their final game project.
 
 This site builds upon open source books, lesson plans and tutorials, cited. Mini workshops and projects are completed along the way, including building text adventure games and pong.
 
@@ -31,6 +31,4 @@ See also &#8608; [site source code](https://github.com/lee2sman/programming-game
 Feedback welcome.
 
 ![under construction]({{ site.baseurl }}/assets/img/construction.gif)
-
-
 
