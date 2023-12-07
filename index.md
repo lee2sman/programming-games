@@ -22,6 +22,6 @@ permalink: "/"
 </ul>
 
 <br>
-<p><a href='/about'>About this site</a></p>
+<p><a href='./about'>About this site</a></p>
  
 ![Purchase College clock tower]({{ site.baseurl }}/assets/img/clock.jpg)
